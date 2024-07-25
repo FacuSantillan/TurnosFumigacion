@@ -1,0 +1,45 @@
+.container {
+  height: 63vh, auto;
+  max-height: 100%;
+  max-width: 400px;
+  margin: 20px auto 0 auto; 
+  padding: 30px;
+  background-color: #ffffff2c;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(30px); 
+  align-items: center;
+  }
+
+.text{
+  font-weight: lighter;
+  text-align: center;
+}
+
+  .title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-weight: bold;
+    font-size: 1.6em;
+  }
+
+  .img{
+    margin-left: 35%;
+    margin-top: 0px;
+    height: 35%;
+    width: 35%;
+  }
+
+  .pin{
+    height: 40px;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+    width: 100px;
+  }
