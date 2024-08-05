@@ -24,6 +24,21 @@ module.exports = (sequelize) => {
       allowNull: false,
       unique: false,
     },
+    direccion:{
+      type :DataTypes.STRING ,
+      allowNull: false,
+      unique: false,
+    },
+    barrio:{
+      type :DataTypes.STRING ,
+      allowNull: false,
+      unique: false,
+    },
+    indicaciones:{
+      type :DataTypes.STRING ,
+      allowNull: false,
+      unique: false,
+    },
   },
 );
 };

@@ -1,0 +1,84 @@
+.title{
+  text-align: center;
+}
+
+.form-container {
+  height: 63vh;
+  max-width: 400px;
+  margin: 100px auto 0 auto; 
+  padding: 30px;
+  background-color: #ffffff3b;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px); 
+}
+
+.form-group {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 16%;
+}
+.logo{
+  position: absolute;
+  top: 2%;
+  left: 21%;
+}
+.form-group h3 {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+input[type="text"], input[type="tel"] {
+  width: 94%;
+  padding: 10px;
+  border: 0px solid #ccc;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+.button {
+  display: block;
+  margin-top: 25px;
+  width: 100%;
+  padding: 10px;
+  background-color: #3a4268;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.button:disabled {
+  background-color: #ccc; 
+  color: #666; 
+  cursor: not-allowed; 
+}
+
+.button:hover {
+  background-color: #2b366c;
+}
+@media screen and (max-width: 480px) {
+  .logo{
+    position: absolute;
+    top: -20%;
+    left: 22%;
+    align-items: center;
+  }
+
+  .form-container {
+    height: 50vh;
+    margin-top: 20%;
+    position: relative;
+    top: 7vh;
+  }
+  .form-group {
+    position: relative;
+    top: -11%;
+  }
+
+  .button {
+    margin-top: 20%;
+  }
+}
